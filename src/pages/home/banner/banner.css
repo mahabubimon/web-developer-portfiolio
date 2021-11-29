@@ -1,8 +1,7 @@
 .banner-img {
-    background-image: url("https://i.ibb.co/8Y9YrPd/banner-1.jpg");
-    background-color: #eed9d9;
+    background-image: url("./../../../images/banner-2.png");
     height: 460px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  }
+.avatar-img {
+    height: 500px;
   }

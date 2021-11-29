@@ -1,14 +1,15 @@
 import React from "react";
+import About from "../about/About";
 import Banner from "../banner/Banner";
-import Header from "../header/Header";
+import Projects from "../projects/Projects";
 
 const Home = () => {
   return (
-    <div>
-      <Header />
+    <>
       <Banner />
-      <h2>Hello</h2>
-    </div>
+      <About />
+      <Projects />
+    </>
   );
 };
 
