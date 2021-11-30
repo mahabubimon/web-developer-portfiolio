@@ -6,6 +6,12 @@ const Projects = () => {
     <Container>
       <Row>
         <h2>My Recent Projects</h2>
+        <div className="col-md-6"></div>
+        <div className="col-md-6"></div>
+        <div className="col-md-6"></div>
+        <div className="col-md-6"></div>
+        <div className="col-md-6"></div>
+        <div className="col-md-6"></div>
       </Row>
     </Container>
   );

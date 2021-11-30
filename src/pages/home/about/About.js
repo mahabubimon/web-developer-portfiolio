@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import about from "./../../../images/banner-2.png";
 
+
+
 const About = () => {
   return (
     <Container className="py-5">
