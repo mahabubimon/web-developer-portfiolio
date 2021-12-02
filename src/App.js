@@ -3,6 +3,7 @@ import About from "./pages/home/about/About";
 import Contact from "./pages/home/contact/Contact";
 import Home from "./pages/home/home/Home";
 import Projects from "./pages/home/projects/Projects";
+import ProjectDetails from "./pages/projectDetails/ProjectDetails";
 import Footer from "./pages/shared/footer/Footer";
 import Header from "./pages/shared/header/Header";
 
@@ -16,6 +17,9 @@ function App() {
         </Route>
         <Route path="/projects">
           <Projects />
+        </Route>
+        <Route path="/project/:id">
+          <ProjectDetails />
         </Route>
         <Route path="/contact">
           <Contact />

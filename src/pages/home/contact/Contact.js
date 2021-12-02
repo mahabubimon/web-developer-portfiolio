@@ -26,7 +26,7 @@ const Contact = () => {
               controlId="exampleForm.ControlTextarea1"
             >
               <Form.Label>Example textarea</Form.Label>
-              <Form.Control as="textarea" name="message" rows="10" required />
+              <Form.Control as="textarea" name="message" rows="10" required  />
             </Form.Group>
             <Button type="submit">Send Message</Button>
           </Form>
