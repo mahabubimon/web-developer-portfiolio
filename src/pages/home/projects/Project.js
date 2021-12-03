@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Col } from "react-bootstrap";
+import { Card, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Project = ({project}) => {
@@ -13,7 +13,7 @@ const Project = ({project}) => {
         </Card.Body>
         <Card.Footer>
           <Link to={`/project/${id}`}>
-            <button className="my-btn btn-sm mx-2 ">Project Details</button>
+            <Button className="my-btn btn-sm mx-2 ">Project Details</Button>
           </Link>
         </Card.Footer>
       </Card>
