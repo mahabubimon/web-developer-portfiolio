@@ -37,6 +37,8 @@ const Banner = () => {
               <a
                 href="https://www.linkedin.com/in/mahabubimon/"
                 className="text-decoration-none text-white"
+                target="_blank"
+                rel="noreferrer"
               >
                 LinkedIn
               </a>
@@ -45,6 +47,8 @@ const Banner = () => {
               <a
                 href="https://github.com/mahabubimon/"
                 className="text-decoration-none text-white"
+                target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
