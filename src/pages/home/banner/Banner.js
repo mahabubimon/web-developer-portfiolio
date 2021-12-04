@@ -1,17 +1,13 @@
 import React from "react";
-import { Button } from "react-bootstrap";
-import avatar from "./../../../images/avatar-hi.png";
-import "./banner.css";
+import { Button, Container, Row } from "react-bootstrap";
+import profile from "./../../../images/profile.png";
 
 const Banner = () => {
   return (
-    <div className="container-fluid">
-      <div className="row py-5 d-flex flex-row-reverse text-center">
-        <div className="col-lg-5 py-5">
-          <img className="img-fluid" src={avatar} alt="" />
-        </div>
-        <div className="col-lg-7 position-relative">
-          <div className="position-absolute top-50 start-50 translate-middle">
+    <Container>
+      <Row className="py-5 mt-5">
+        <div className="col-lg-7 ps-5 mt-5 pt-5">
+          <div>
             <h2>
               I'm <span className="text-info"> Mahabub Emon</span>
             </h2>
@@ -32,7 +28,7 @@ const Banner = () => {
               </a>
             </Button>
           </div>
-          <div className="position-absolute top-100 start-50 translate-middle d-flex gap-2">
+          <div className="d-flex gap-2 pt-5">
             <Button>
               <a
                 href="https://www.linkedin.com/in/mahabubimon/"
@@ -55,8 +51,11 @@ const Banner = () => {
             </Button>
           </div>
         </div>
-      </div>
-    </div>
+        <div className="col-lg-5">
+          <img className="img-fluid" src={profile} alt="" />
+        </div>
+      </Row>
+    </Container>
   );
 };
 
